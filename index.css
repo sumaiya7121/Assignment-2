@@ -1,0 +1,164 @@
+body {
+
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+.Header-section {
+    margin-top: 30px;
+    display: flex;
+    background-color: black;
+    border-radius: 25px;
+
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-between;
+    width: 1321px;
+    height: 646px;
+
+
+}
+
+.Header-sub-section {
+
+    height: 531px;
+    width: 424px;
+    margin-left: 106px;
+}
+
+.Header-sub-section h2 {
+
+    color: white;
+    font-size: 40px;
+    font-weight: 500px;
+
+}
+
+.paragraph {
+
+    font-size: 16px;
+    color: white;
+    font-weight: 400px;
+
+}
+
+.image-section img {
+
+    margin-right: 106px;
+    margin-bottom: 0px;
+    width: 581px;
+    height: 613px;
+}
+
+.Button-1 {
+    background-color: orangered;
+    width: 187px;
+    height: 30px;
+    padding: 16px 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-section {
+
+    height: 312px;
+    width: 312px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-top: 130px;
+
+}
+
+.menu-section a {
+
+    text-decoration: none;
+
+    text-align: center;
+    background-color: white;
+    padding: 17px 39px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+
+
+
+}
+
+#Blog-button {
+
+    background-color: orangered;
+    color: white;
+
+
+}
+
+
+.article {
+
+    width: 312px;
+    height: 362px
+}
+
+.article-image {
+
+
+    width: 312px;
+    height: 175px;
+}
+
+.article-head {
+
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding-top: 6px;
+
+    text-align: center;
+}
+
+.article-description {
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.fa-clock {
+
+    margin-right: 10px;
+}
+
+.fa-message {
+
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.main-section {
+    display: flex;
+}
+
+.All-articles {
+
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+    margin-top: 130px;
+}
