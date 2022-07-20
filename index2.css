@@ -1,9 +1,8 @@
 .container {
 
-
-
+    width: 1321px;
+    background-color: #ece3e3;
     margin: 50px;
-
 
 
 
@@ -21,17 +20,23 @@ body {
 
 
 .Header-section {
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
-    background-color: #161616;
+    background-color: black;
     border-radius: 25px;
+
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-between;
+
+    height: 646px;
     width: 100%;
-    height: 100%;
+
+
 }
 
 .Header-sub-section {
 
-    margin-top: 111px;
     height: 531px;
     width: 424px;
     margin-left: 106px;
@@ -46,13 +51,6 @@ body {
 
 }
 
-.image-section img {
-    margin-top: 33px;
-    width: 50%;
-    height: 613px;
-    width: 581px;
-}
-
 .paragraph {
 
     font-size: 16px;
@@ -61,13 +59,23 @@ body {
 
 }
 
+.image-section {
+    width: 50%;
+    margin-bottom: 0;
+}
 
+.image-section img {
 
+    margin-right: 106px;
+    margin-bottom: 0px;
+    width: 581px;
+    height: 613px;
 
+}
 
 .Button-1 {
-
-    width: 140px;
+    background-color: orangered;
+    width: 187px;
     height: 30px;
     padding: 16px 25px;
     border-radius: 5px;
@@ -76,7 +84,6 @@ body {
     display: inline-block;
     font-size: 20px;
     text-align: center;
-
     animation-name: button-anim;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -103,13 +110,13 @@ body {
 }
 
 /*------ANIMATION END-----------*/
-
 .menu-section {
 
     height: 312px;
     width: 312px;
     background-color: #161616;
     display: flex;
+    flex-direction: column;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -149,42 +156,46 @@ body {
 
 
 .article {
-
-    margin-bottom: 24px;
-}
-
-.article-image {
-
-
     width: 312px;
-    height: 175px;
+    height: 242px;
 }
 
 .article-head {
 
-    width: 100px;
-    height: 32px;
-    border: 1px solid black;
-    font-size: 16px;
-    padding-top: 6px;
 
+    font-weight: 600;
+    font-size: 20px;
     text-align: center;
+    color: #161616;
+    width: 202px;
+    height: 30px;
 }
+
+.flags {
+
+    display: flex;
+
+}
+
+.article-image {
+
+    width: 93.04px;
+    height: 56.18px;
+}
+
+.vs {
+
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 
 .article-description {
-    font-size: 18px;
-    font-weight: 600px;
-}
-
-.fa-clock {
-
-    margin-right: 10px;
-}
-
-.fa-message {
 
     margin-left: 20px;
-    margin-right: 10px;
+    padding-top: 15px;
 }
 
 .main-section {
@@ -201,7 +212,7 @@ body {
     margin-top: 130px;
 }
 
-.footer-section {
+.footer-secction {
 
 
 
@@ -231,41 +242,28 @@ body {
 
 
 
-.footer-description {
-    display: flex;
-    flex-direction: row;
-
-    color: orangered;
-
-}
-
 .footer-description span {
 
+    color: white;
     margin-right: 40px;
-    padding: 5px;
 }
 
 .fa-facebook-f,
 .fa-linkedin-in,
 .fa-instagram {
 
-
-
-
+    background-color: #ece3e3;
+    border-radius: 50px;
+    margin-right: 70px;
     margin-top: 30px;
     text-align: center;
     height: 30px;
     width: 50px;
     border-radius: 100px;
-    color: rgb(255, 255, 255);
-
+    color: orangered;
+    padding-top: 16px;
     text-decoration: none;
 }
-
-.btn-main {
-    display: none;
-}
-
 
 /*-----------------------------------Media Query--------------------------------------*/
 /*----------------mobile-view---------------*/
@@ -355,10 +353,6 @@ body {
         flex-direction: row;
     }
 
-    .btn-main {
-        display: none;
-    }
-
 }
 
 /*--------------tablet-devices-------------*/
@@ -419,34 +413,6 @@ body {
 
     }
 
-    .btn-main {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-
-
-    }
-
-    .btn {
-
-        background-color: orangered;
-        color: #FFFFFF;
-        width: 100px;
-        height: 23px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-
-
-
-
-
-    }
 
     .footer-section {
 
