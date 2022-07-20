@@ -27,6 +27,7 @@ body {
     border-radius: 25px;
     width: 100%;
     height: 100%;
+
 }
 
 .Header-sub-section {
@@ -51,6 +52,7 @@ body {
     width: 50%;
     height: 613px;
     width: 581px;
+
 }
 
 .paragraph {
@@ -88,7 +90,7 @@ body {
 
     0% {
 
-        background-color: rgb(243, 192, 99);
+        background-color: rgb(245, 209, 143);
         margin-left: 100px;
     }
 
